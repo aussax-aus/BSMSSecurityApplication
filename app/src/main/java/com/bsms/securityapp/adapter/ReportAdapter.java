@@ -56,7 +56,7 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportView
         // Set photo count with fallback logic
         int photoCount = report.getPhotoCount();
         if (photoCount == 0) {
-            // Fallback: parse photoPaths if photoCount is not set
+            // Fallback: parse photoPaths if photoCount is not set but paths exist
             String photoPaths = report.getPhotoPaths();
             if (photoPaths != null && !photoPaths.trim().isEmpty()) {
                 String[] paths = photoPaths.split(",");
