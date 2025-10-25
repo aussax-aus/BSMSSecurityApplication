@@ -106,13 +106,26 @@ public class ResponseDatabaseHelper extends SQLiteOpenHelper {
                         " | Incident: " + cursor.getString(cursor.getColumnIndexOrThrow("incident")) +
                         " | Action: " + cursor.getString(cursor.getColumnIndexOrThrow("action")));
 
-                // ✅ Include photo paths
+                // ✅ Include photo paths and compute photo count
                 int colIndex = cursor.getColumnIndex("photo_paths");
                 if (colIndex != -1) {
                     String photos = cursor.getString(colIndex);
                     report.setPhotoPaths(photos);
+                    
+                    // Count non-empty photo paths
+                    int count = 0;
+                    if (photos != null && !photos.trim().isEmpty()) {
+                        String[] paths = photos.split(",");
+                        for (String path : paths) {
+                            if (path != null && !path.trim().isEmpty()) {
+                                count++;
+                            }
+                        }
+                    }
+                    report.setPhotoCount(count);
                 } else {
                     report.setPhotoPaths("");
+                    report.setPhotoCount(0);
                 }
 
                 reports.add(report);
