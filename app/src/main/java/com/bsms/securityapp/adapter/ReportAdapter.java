@@ -53,6 +53,29 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportView
         holder.tvAction.setText("Action: " + extract(details, "Action:"));
         holder.tvDateTime.setText(report.getDate());
 
+        // Set photo count with fallback logic
+        int photoCount = report.getPhotoCount();
+        if (photoCount == 0) {
+            // Fallback: parse photoPaths if photoCount is not set but paths exist
+            String photoPaths = report.getPhotoPaths();
+            if (photoPaths != null && !photoPaths.trim().isEmpty()) {
+                String[] paths = photoPaths.split(",");
+                for (String path : paths) {
+                    if (path != null && !path.trim().isEmpty()) {
+                        photoCount++;
+                    }
+                }
+            }
+        }
+        
+        // Show/hide photo count based on whether there are photos
+        if (photoCount > 0) {
+            holder.tvPhotoCount.setText("Photos: " + photoCount);
+            holder.tvPhotoCount.setVisibility(View.VISIBLE);
+        } else {
+            holder.tvPhotoCount.setVisibility(View.GONE);
+        }
+
         // Copy button
         holder.btnCopy.setOnClickListener(v -> {
             ClipboardManager clipboard = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
@@ -93,7 +116,7 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportView
     }
 
     public static class ReportViewHolder extends RecyclerView.ViewHolder {
-        TextView tvTypeDept, tvRoleName, tvContactLeave, tvIncident, tvAction, tvDateTime;
+        TextView tvTypeDept, tvRoleName, tvContactLeave, tvIncident, tvAction, tvDateTime, tvPhotoCount;
         Button btnCopy, btnEdit, btnDelete;
 
         public ReportViewHolder(@NonNull View itemView) {
@@ -104,6 +127,7 @@ public class ReportAdapter extends RecyclerView.Adapter<ReportAdapter.ReportView
             tvIncident = itemView.findViewById(R.id.tvIncident);
             tvAction = itemView.findViewById(R.id.tvAction);
             tvDateTime = itemView.findViewById(R.id.tvDateTime);
+            tvPhotoCount = itemView.findViewById(R.id.tvPhotoCount);
             btnCopy = itemView.findViewById(R.id.btnCopy);
             btnEdit = itemView.findViewById(R.id.btnEdit);
             btnDelete = itemView.findViewById(R.id.btnDelete);
