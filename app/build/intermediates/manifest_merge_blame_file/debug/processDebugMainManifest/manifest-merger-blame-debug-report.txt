@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bsms.securityapp"
+4    android:versionCode="36"
+5    android:versionName="3.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- ✅ Camera & storage permissions -->
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:6:5-65
+12-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:8:5-80
+14-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:8:22-77
+15
+16    <permission
+16-->[androidx.core:core:1.13.0] C:\Users\John\.gradle\caches\8.13\transforms\d115fb15f09a2deca6409087d5fef1dc\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.bsms.securityapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.0] C:\Users\John\.gradle\caches\8.13\transforms\d115fb15f09a2deca6409087d5fef1dc\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.0] C:\Users\John\.gradle\caches\8.13\transforms\d115fb15f09a2deca6409087d5fef1dc\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.bsms.securityapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.0] C:\Users\John\.gradle\caches\8.13\transforms\d115fb15f09a2deca6409087d5fef1dc\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.0] C:\Users\John\.gradle\caches\8.13\transforms\d115fb15f09a2deca6409087d5fef1dc\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:10:5-45:19
+23        android:allowBackup="true"
+23-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:11:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.0] C:\Users\John\.gradle\caches\8.13\transforms\d115fb15f09a2deca6409087d5fef1dc\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@mipmap/ic_launcher"
+27-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:13:9-43
+28        android:label="BSMS Security App"
+28-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:12:9-42
+29        android:supportsRtl="true"
+29-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:14:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.BSMS" >
+31-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:15:9-42
+32        <activity
+32-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:17:9-24:20
+33            android:name="com.bsms.securityapp.SplashActivity"
+33-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:18:13-43
+34            android:exported="true" >
+34-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:19:13-36
+35            <intent-filter>
+35-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:20:13-23:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:21:17-69
+36-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:21:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:22:17-77
+38-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:22:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.bsms.securityapp.MainActivity" />
+41-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:26:9-50
+41-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:26:19-47
+42        <activity android:name="com.bsms.securityapp.AlarmResponseActivity" />
+42-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:27:9-59
+42-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:27:19-56
+43        <activity android:name="com.bsms.securityapp.ViewResponsesActivity" />
+43-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:28:9-59
+43-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:28:19-56
+44        <activity android:name="com.bsms.securityapp.SettingsActivity" />
+44-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:29:9-54
+44-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:29:19-51
+45        <activity android:name="com.bsms.securityapp.AboutActivity" />
+45-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:30:9-51
+45-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:30:19-48
+46        <activity android:name="com.bsms.securityapp.ReportFormActivity" />
+46-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:31:9-56
+46-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:31:19-53
+47        <activity android:name="com.bsms.securityapp.ViewReportsActivity" />
+47-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:32:9-57
+47-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:32:19-54
+48
+49        <!-- ✅ Only ONE correct FileProvider -->
+50        <provider
+51            android:name="androidx.core.content.FileProvider"
+51-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:36:13-62
+52            android:authorities="com.bsms.securityapp.fileprovider"
+52-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:37:13-64
+53            android:exported="false"
+53-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:38:13-37
+54            android:grantUriPermissions="true" >
+54-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:39:13-47
+55            <meta-data
+55-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:40:13-42:54
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:41:17-67
+57                android:resource="@xml/file_paths" />
+57-->D:\Visual Studio Work\BSMS Security Application- H\app\src\main\AndroidManifest.xml:42:17-51
+58        </provider>
+59        <provider
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\John\.gradle\caches\8.13\transforms\c9c4bd7d661652e00a0e6afa70019e4e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\John\.gradle\caches\8.13\transforms\c9c4bd7d661652e00a0e6afa70019e4e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.bsms.securityapp.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\John\.gradle\caches\8.13\transforms\c9c4bd7d661652e00a0e6afa70019e4e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\John\.gradle\caches\8.13\transforms\c9c4bd7d661652e00a0e6afa70019e4e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\John\.gradle\caches\8.13\transforms\c9c4bd7d661652e00a0e6afa70019e4e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\John\.gradle\caches\8.13\transforms\c9c4bd7d661652e00a0e6afa70019e4e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\John\.gradle\caches\8.13\transforms\c9c4bd7d661652e00a0e6afa70019e4e\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\John\.gradle\caches\8.13\transforms\5311c873cf1b2e15adede446fd34ca54\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\John\.gradle\caches\8.13\transforms\5311c873cf1b2e15adede446fd34ca54\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\John\.gradle\caches\8.13\transforms\5311c873cf1b2e15adede446fd34ca54\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\John\.gradle\caches\8.13\transforms\7acf96d0eeba46cf2566add2af8735f9\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

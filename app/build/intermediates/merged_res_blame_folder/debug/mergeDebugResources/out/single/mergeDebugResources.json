@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\mipmap_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\mipmap\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_report_card_bg.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\report_card_bg.xml"
+    },
+    {
+        "merged": "com.bsms.securityapp-debug-31:/layout_item_respones.xml.flat",
+        "source": "com.bsms.securityapp-main-33:/layout/item_respones.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_ic_list.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\ic_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_folder.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_folder.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_list.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_report.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_activity_report_form.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\activity_report_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_ic_alarm.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\ic_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_clipboard.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_clipboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_bsms_logo.png.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\bsms_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_item_respones.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\item_respones.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_alarm.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_alarm.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_activity_alarm_response.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\activity_alarm_response.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_activity_view_responses.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\activity_view_responses.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_form.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_form.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_item_report_compact.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\item_report_compact.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-debug-31:\\layout_activity_view_reports.xml.flat",
+        "source": "C:\\Users\\John\\.gradle\\daemon\\8.13\\com.bsms.securityapp-main-33:\\layout\\activity_view_reports.xml"
+    }
+]

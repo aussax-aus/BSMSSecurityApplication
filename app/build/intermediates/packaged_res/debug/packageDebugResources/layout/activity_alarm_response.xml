@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#0A3D91">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alarm Response Form"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+
+        <!-- Date / Time -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date / Time">
+
+            <EditText
+                android:id="@+id/input_datetime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="datetime"
+                android:enabled="false"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Alarm Type Dropdown -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/alarm_type_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   Alarm Type"
+            app:endIconMode="dropdown_menu"
+            android:layout_marginTop="1dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_alarm_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Department / Company Dropdown -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/department_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   Department / Company"
+            app:endIconMode="dropdown_menu"
+            android:layout_marginTop="1dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_department_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Location -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:layout_marginTop="1dp">
+            <EditText
+                android:id="@+id/input_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="textPostalAddress"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Role / Position Dropdown -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/role_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="   Role / Position"
+            android:layout_marginTop="1dp"
+            app:endIconMode="dropdown_menu">
+
+            <AutoCompleteTextView
+                android:id="@+id/input_role"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="text"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Name -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:layout_marginTop="1dp">
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Contact Number -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:layout_marginTop="1dp">
+            <EditText
+                android:id="@+id/input_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="phone"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Time Leaving -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Time Leaving"
+            android:layout_marginTop="1dp">
+            <EditText
+                android:id="@+id/input_time_leaving"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="time"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Incident Details -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Incident Details"
+            android:layout_marginTop="1dp">
+            <EditText
+                android:id="@+id/input_incident"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:gravity="top"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Action Taken -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Action Taken"
+            android:layout_marginTop="1dp">
+            <EditText
+                android:id="@+id/input_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:gravity="top"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Photo Capture Section -->
+        <TextView
+            android:id="@+id/tv_photos_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attach Photos"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <Button
+            android:id="@+id/btn_add_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Photo"
+            android:textAllCaps="false"
+            android:backgroundTint="#1565C0"
+            android:textColor="@android:color/white" />
+
+        <!-- Thumbnail Grid for up to 10 images -->
+        <LinearLayout
+            android:id="@+id/layout_thumbnails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:layout_gravity="center">
+        </LinearLayout>
+
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Response"
+            android:textAllCaps="false"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#1565C0"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="1dp" />
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:padding="12dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp" />
+
+    </LinearLayout>
+</ScrollView>
