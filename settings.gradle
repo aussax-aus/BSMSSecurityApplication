@@ -1,0 +1,2 @@
+rootProject.name = 'BSMS_Security_App'
+include ':app'

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A3D91">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- 🦈 BSMS Logo at the top -->
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/bsms_logo"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+
+        <!-- Example title text -->
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="12dp" />
+
+
+
+        <!-- Alarm Response Form -->
+        <Button
+            android:id="@+id/btn_alarm"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Alarm Response Form"
+            android:drawableLeft="@drawable/ic_alarm"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- View Reports -->
+        <Button
+            android:id="@+id/btn_reports"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="View Responses"
+            android:drawableLeft="@drawable/ic_list"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Report Form -->
+        <Button
+            android:id="@+id/btn_report_form"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Report Form"
+            android:drawableLeft="@drawable/ic_form"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- View Reports -->
+        <Button
+            android:id="@+id/btn_view_reports"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="View Reports"
+            android:drawableLeft="@drawable/ic_report"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Settings -->
+        <Button
+            android:id="@+id/btn_settings"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:drawableLeft="@drawable/ic_settings"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- About -->
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:drawableLeft="@drawable/ic_info"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>
